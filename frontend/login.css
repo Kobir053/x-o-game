@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image:url('https://homehatchpk.com/cdn/shop/products/1209905140-1356049201_1_2048x_46f0b40f-ef74-4869-bbbd-52a2087bb75a.jpg');
+    background-position:center;
+    background-size:cover;
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    -webkit-font-smoothing: antialiased;
+    font: normal 14px Roboto,arial,sans-serif;
+    font-family: 'Dancing Script', cursive!important;
+}
+
+section{
+    height: 35%;
+    width: 25%;
+    background-color: rgba(181, 181, 167, 0.768);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 8px;
+    padding: 8px 15px;
+    padding-bottom: 15px;
+}
+section > h1{
+    color: rgb(227, 223, 197);
+    font-size: x-large;
+}
+section > input{
+    height: 15%;
+    width: 80%;
+    background-color: rgba(43, 201, 159, 0.548);
+    border: none;
+    border-radius: 7px;
+    padding-left: 5px;
+}
+::placeholder{
+    color: rgb(218, 212, 179);
+    font-family: 'Dancing Script', cursive!important;
+}
+
+section > button{
+    height: 15%;
+    width: 20%;
+    background-color: rgba(43, 201, 159, 0.548);
+    border: none;
+    border-radius: 4px;
+    color: rgb(218, 212, 179);
+    font-family: 'Dancing Script', cursive!important;
+    font-size: larger;
+}
+section > button:hover{
+    background-color: rgba(43, 201, 159, 0.373);
+    cursor: pointer;
+}
